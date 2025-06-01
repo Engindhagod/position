@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    gap: 80px;
+    background-color: rgb(251, 225, 225);
+    height: 100vh;
+}
+
+.left-side{
+    width: 220px;
+    margin-top: 90px;
+    margin-left: 90px;
+}
+
+.left-side h1{
+    color: #0D4715;
+}
+
+.left-side p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.left-side button{
+    padding: 8px 16px;
+    background-color: #0D4715;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.left-side button:hover{
+    background-color: white;
+    color: black;
+}
+
+.right-side{
+    position: relative;
+}
+.right-side img{
+    width: 350px;
+    margin-top: 90px;
+    border-radius: 20px;
+}
+
+.right-side h3{
+    background-color: white;
+    padding: 10px 20px;
+    width: 100px;
+    border-radius: 10px;
+    position: absolute;
+    left: 100px;
+    bottom: 125px;
+    color: #0D4715;
+}
